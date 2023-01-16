@@ -17,26 +17,21 @@
 
 # c. Instructions for executing the pipeline and modifying any parameters
 
+    source ./run.sh
+
 # d. Description of logical steps/flow of the pipeline
 
-If you find it useful, please feel free to
-include suitable visualization aids (eg, flow charts) within the README.
-
 # e. EDA overview
-
-e. Overview of key findings from the EDA conducted in Task 1 and the choices made in the
-pipeline based on these findings, particularly any feature engineering. Please keep the
-details of the EDA in the `.ipynb`. The information in the `README.md` should be a quick
-summary of the details from `.ipynb`.
 
 # f. Described how the features in the dataset are processed (summarized in a table)
 
 # g. Explanation of your choice of models for each machine learning task
 
+    This is a binary classification problem. I use Support Vector Machine and Logistic regression.
+
 # h. Evaluation of the models developed
 
- Any metrics used in the evaluation should also be
-explained.
+    I use confusion metric 
 
 # i. Other considerations for deploying the models developed
 
